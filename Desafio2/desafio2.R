@@ -1,3 +1,7 @@
-library(tidyverse)
-palavras = read.csv('.\\Desafio2\\palavras.csv', encoding = 'UTF-8')
-regras = read.csv('.\\Desafio2\\regras.csv', encoding = 'UTF-8')
+familia1= list(Pessoas= c("Joao", "Erica", "Gigio", "Cookie"),
+               Idades= c(56,45,10,1),
+               Cidade= "Sao Paulo",
+               Sexo= c("Masculino", "Feminino")
+)
+familia1
+class(familia1)
